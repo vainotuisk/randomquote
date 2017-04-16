@@ -14,6 +14,5 @@ $.ajaxSetup({ cache: false });
      // Only change code above this line.
      $(".quote-source").html(a[0].title);
    });
- cache: false
  });
 });
