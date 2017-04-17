@@ -2,7 +2,7 @@ $(document).ready(function() {
   var quote;
   var author;
 $.ajaxSetup({ cache: false });
-   $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+   $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
    quote = a[0].content.replace(/<\/?[^>]+>/gi, '');
     author= a[0].title.replace(/<\/?[^>]+>/gi, '');
      console.log('tsitaat on: '+quote);
