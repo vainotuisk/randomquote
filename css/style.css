@@ -2,3 +2,6 @@ blockquote {
     margin: 0 auto;
     width: 60%;
 }
+.custom {
+    width: 98px !important;
+}
